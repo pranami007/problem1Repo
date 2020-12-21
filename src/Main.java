@@ -7,10 +7,10 @@ public class Main {
 	public static void main(String args[]) {
 		int[] arr = { 2, 0, 6, 1, 5, 3, 7,1,2,3,4,6,5,7,8,9,10};
  
-        System.out.println("Output : " +result(arr));
+        System.out.println("Output : " +challengeArray(arr));
 	}
 	
-	public static int result(int[] arr)
+	public static int challengeArray(int[] arr)
     {
         Set<Integer> S = IntStream.of(arr)
                                 .boxed()
